@@ -9,4 +9,4 @@
 [core]
 	editor = vim
 [credential]
-	helper = store --file ~/.config/git/git-credentials
+	helper = store --file /home/bgray/.config/git/git-credentials
