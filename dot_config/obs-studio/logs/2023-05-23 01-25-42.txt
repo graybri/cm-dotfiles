@@ -1,0 +1,261 @@
+01:25:42 AM.797: CPU Name: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+01:25:42 AM.797: CPU Speed: 804.351MHz
+01:25:42 AM.799: Physical Cores: 8, Logical Cores: 16
+01:25:42 AM.799: Physical Memory: 31979MB Total, 24189MB Free
+01:25:42 AM.799: Kernel Version: Linux 5.4.0-148-generic
+01:25:42 AM.799: Distribution: "Linux Mint" "20.2"
+01:25:42 AM.800: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.13
+01:25:42 AM.802: Portable mode: false
+01:25:42 AM.861: OBS 25.0.3+dfsg1-2 (linux)
+01:25:42 AM.861: ---------------------------------
+01:25:42 AM.861: ---------------------------------
+01:25:42 AM.861: audio settings reset:
+01:25:42 AM.861: 	samples per sec: 44100
+01:25:42 AM.861: 	speakers:        2
+01:25:42 AM.867: ---------------------------------
+01:25:42 AM.867: Initializing OpenGL...
+01:25:42 AM.921: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GT 1030/PCIe/SSE2
+01:25:42 AM.921: OpenGL loaded successfully, version 3.3.0 NVIDIA 470.182.03, shading language 3.30 NVIDIA via Cg compiler
+01:25:42 AM.926: ---------------------------------
+01:25:42 AM.926: video settings reset:
+01:25:42 AM.926: 	base resolution:   1920x1080
+01:25:42 AM.926: 	output resolution: 1920x1080
+01:25:42 AM.926: 	downscale filter:  Bicubic
+01:25:42 AM.926: 	fps:               60/1
+01:25:42 AM.926: 	format:            NV12
+01:25:42 AM.926: 	YUV mode:          601/Partial
+01:25:42 AM.926: NV12 texture support not available
+01:25:42 AM.926: Audio monitoring device:
+01:25:42 AM.926: 	name: Default
+01:25:42 AM.926: 	id: default
+01:25:42 AM.926: ---------------------------------
+01:25:42 AM.927: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:25:42 AM.952: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:25:42 AM.952: No blackmagic support
+01:25:42 AM.964: NVENC supported
+01:25:42 AM.964: FFMPEG VAAPI supported
+01:25:42 AM.970: VLC found, VLC video source enabled
+01:25:42 AM.970: ---------------------------------
+01:25:42 AM.970:   Loaded Modules:
+01:25:42 AM.970:     vlc-video.so
+01:25:42 AM.970:     text-freetype2.so
+01:25:42 AM.970:     rtmp-services.so
+01:25:42 AM.970:     obs-x264.so
+01:25:42 AM.970:     obs-transitions.so
+01:25:42 AM.970:     obs-outputs.so
+01:25:42 AM.970:     obs-filters.so
+01:25:42 AM.970:     obs-ffmpeg.so
+01:25:42 AM.970:     linux-v4l2.so
+01:25:42 AM.970:     linux-pulseaudio.so
+01:25:42 AM.970:     linux-jack.so
+01:25:42 AM.970:     linux-decklink.so
+01:25:42 AM.970:     linux-capture.so
+01:25:42 AM.970:     linux-alsa.so
+01:25:42 AM.970:     image-source.so
+01:25:42 AM.970:     frontend-tools.so
+01:25:42 AM.970:     decklink-ouput-ui.so
+01:25:42 AM.970: ---------------------------------
+01:25:42 AM.970: ==== Startup complete ===============================================
+01:25:42 AM.970: Service '' not found
+01:25:42 AM.972: All scene data cleared
+01:25:42 AM.972: ------------------------------------------------
+01:25:42 AM.973: pulse-input: Server name: 'pulseaudio 13.99.1'
+01:25:42 AM.973: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:25:42 AM.973: pulse-input: Started recording from 'alsa_output.usb-Generic_USB_Audio-00.analog-stereo.monitor'
+01:25:43 AM.088: pulse-input: Server name: 'pulseaudio 13.99.1'
+01:25:43 AM.089: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+01:25:43 AM.089: pulse-input: Started recording from 'alsa_input.usb-Logitech_USB_Headset_Logitech_USB_Headset-00.mono-fallback'
+01:25:43 AM.110: alsa-input: PCM 'default' rate set to 44100
+01:25:43 AM.110: alsa-input: PCM 'default' channels set to 2
+01:25:43 AM.111: xshm-input: Geometry 1920x1080 @ 2560,0
+01:25:43 AM.112: Switched to scene 'Scene'
+01:25:43 AM.112: ------------------------------------------------
+01:25:43 AM.112: Loaded scenes:
+01:25:43 AM.112: - scene 'Scene':
+01:25:43 AM.113:     - source: 'Display 2' (xshm_input)
+01:25:43 AM.113:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+01:25:43 AM.113: ------------------------------------------------
+01:25:43 AM.646: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds (source: Mic/Aux)
+01:25:43 AM.646: 
+01:26:54 AM.848: ---------------------------------
+01:26:54 AM.848: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+01:26:54 AM.848: [x264 encoder: 'simple_h264_recording'] profile: high
+01:26:54 AM.848: [x264 encoder: 'simple_h264_recording'] settings:
+01:26:54 AM.848: 	rate_control: CRF
+01:26:54 AM.848: 	bitrate:      0
+01:26:54 AM.848: 	buffer size:  0
+01:26:54 AM.848: 	crf:          23
+01:26:54 AM.848: 	fps_num:      60
+01:26:54 AM.848: 	fps_den:      1
+01:26:54 AM.848: 	width:        1920
+01:26:54 AM.848: 	height:       1080
+01:26:54 AM.848: 	keyint:       250
+01:26:54 AM.848: 
+01:26:54 AM.851: ---------------------------------
+01:26:54 AM.851: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+01:26:54 AM.851: 
+01:26:54 AM.860: ==== Recording Start ===============================================
+01:26:54 AM.860: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_01-26-54.mp4'...
+01:27:04 AM.590: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_01-26-54.mp4' stopped
+01:27:04 AM.590: Output 'simple_file_output': stopping
+01:27:04 AM.590: Output 'simple_file_output': Total frames output: 545
+01:27:04 AM.590: Output 'simple_file_output': Total drawn frames: 583
+01:27:04 AM.590: ==== Recording Stop ================================================
+11:59:11 AM.867: adding 46 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+11:59:11 AM.867: 
+06:38:38 PM.508: ---------------------------------
+06:38:38 PM.508: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+06:38:38 PM.508: [x264 encoder: 'simple_h264_recording'] profile: high
+06:38:38 PM.508: [x264 encoder: 'simple_h264_recording'] settings:
+06:38:38 PM.508: 	rate_control: CRF
+06:38:38 PM.508: 	bitrate:      0
+06:38:38 PM.508: 	buffer size:  0
+06:38:38 PM.508: 	crf:          23
+06:38:38 PM.508: 	fps_num:      60
+06:38:38 PM.508: 	fps_den:      1
+06:38:38 PM.508: 	width:        1920
+06:38:38 PM.508: 	height:       1080
+06:38:38 PM.508: 	keyint:       250
+06:38:38 PM.508: 
+06:38:38 PM.510: ---------------------------------
+06:38:38 PM.510: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+06:38:38 PM.510: 
+06:38:38 PM.512: ==== Recording Start ===============================================
+06:38:38 PM.512: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_18-38-38.mp4'...
+06:38:46 PM.881: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_18-38-38.mp4' stopped
+06:38:46 PM.881: Output 'simple_file_output': stopping
+06:38:46 PM.881: Output 'simple_file_output': Total frames output: 463
+06:38:46 PM.881: Output 'simple_file_output': Total drawn frames: 502
+06:38:46 PM.881: ==== Recording Stop ================================================
+06:40:10 PM.844: ---------------------------------
+06:40:10 PM.845: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+06:40:10 PM.845: [x264 encoder: 'simple_h264_recording'] profile: high
+06:40:10 PM.845: [x264 encoder: 'simple_h264_recording'] settings:
+06:40:10 PM.845: 	rate_control: CRF
+06:40:10 PM.845: 	bitrate:      0
+06:40:10 PM.845: 	buffer size:  0
+06:40:10 PM.845: 	crf:          23
+06:40:10 PM.845: 	fps_num:      60
+06:40:10 PM.845: 	fps_den:      1
+06:40:10 PM.845: 	width:        1920
+06:40:10 PM.845: 	height:       1080
+06:40:10 PM.845: 	keyint:       250
+06:40:10 PM.845: 
+06:40:10 PM.846: ---------------------------------
+06:40:10 PM.847: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+06:40:10 PM.847: 
+06:40:10 PM.848: ==== Recording Start ===============================================
+06:40:10 PM.848: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_18-40-10.mp4'...
+06:57:53 PM.880: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_18-40-10.mp4' stopped
+06:57:53 PM.880: Output 'simple_file_output': stopping
+06:57:53 PM.880: Output 'simple_file_output': Total frames output: 63742
+06:57:53 PM.880: Output 'simple_file_output': Total drawn frames: 63782
+06:57:53 PM.880: ==== Recording Stop ================================================
+07:04:06 PM.916: ---------------------------------
+07:04:06 PM.916: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+07:04:06 PM.916: [x264 encoder: 'simple_h264_recording'] profile: high
+07:04:06 PM.916: [x264 encoder: 'simple_h264_recording'] settings:
+07:04:06 PM.916: 	rate_control: CRF
+07:04:06 PM.916: 	bitrate:      0
+07:04:06 PM.916: 	buffer size:  0
+07:04:06 PM.916: 	crf:          23
+07:04:06 PM.916: 	fps_num:      60
+07:04:06 PM.916: 	fps_den:      1
+07:04:06 PM.916: 	width:        1920
+07:04:06 PM.916: 	height:       1080
+07:04:06 PM.916: 	keyint:       250
+07:04:06 PM.916: 
+07:04:06 PM.918: ---------------------------------
+07:04:06 PM.918: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+07:04:06 PM.918: 
+07:04:06 PM.920: ==== Recording Start ===============================================
+07:04:06 PM.920: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_19-04-06.mp4'...
+07:20:45 PM.603: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_19-04-06.mp4' stopped
+07:20:45 PM.603: Output 'simple_file_output': stopping
+07:20:45 PM.603: Output 'simple_file_output': Total frames output: 59882
+07:20:45 PM.603: Output 'simple_file_output': Total drawn frames: 59921
+07:20:45 PM.603: ==== Recording Stop ================================================
+07:42:52 PM.000: ---------------------------------
+07:42:52 PM.000: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+07:42:52 PM.000: [x264 encoder: 'simple_h264_recording'] profile: high
+07:42:52 PM.000: [x264 encoder: 'simple_h264_recording'] settings:
+07:42:52 PM.000: 	rate_control: CRF
+07:42:52 PM.000: 	bitrate:      0
+07:42:52 PM.000: 	buffer size:  0
+07:42:52 PM.000: 	crf:          23
+07:42:52 PM.000: 	fps_num:      60
+07:42:52 PM.000: 	fps_den:      1
+07:42:52 PM.000: 	width:        1920
+07:42:52 PM.000: 	height:       1080
+07:42:52 PM.000: 	keyint:       250
+07:42:52 PM.000: 
+07:42:52 PM.002: ---------------------------------
+07:42:52 PM.002: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+07:42:52 PM.002: 
+07:42:52 PM.006: ==== Recording Start ===============================================
+07:42:52 PM.006: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_19-42-51.mp4'...
+07:53:36 PM.361: output simple_file_output paused
+07:53:45 PM.973: output simple_file_output unpaused
+07:53:46 PM.813: output simple_file_output paused
+08:04:48 PM.793: output simple_file_output unpaused
+08:35:50 PM.227: output simple_file_output paused
+08:41:34 PM.223: output simple_file_output unpaused
+08:43:22 PM.010: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_19-42-51.mp4' stopped
+08:43:22 PM.010: Output 'simple_file_output': stopping
+08:43:22 PM.010: Output 'simple_file_output': Total frames output: 156825
+08:43:22 PM.010: Output 'simple_file_output': Total drawn frames: 217801
+08:43:22 PM.010: ==== Recording Stop ================================================
+08:44:33 PM.390: ---------------------------------
+08:44:33 PM.390: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:44:33 PM.390: [x264 encoder: 'simple_h264_recording'] profile: high
+08:44:33 PM.390: [x264 encoder: 'simple_h264_recording'] settings:
+08:44:33 PM.390: 	rate_control: CRF
+08:44:33 PM.390: 	bitrate:      0
+08:44:33 PM.390: 	buffer size:  0
+08:44:33 PM.390: 	crf:          23
+08:44:33 PM.390: 	fps_num:      60
+08:44:33 PM.390: 	fps_den:      1
+08:44:33 PM.390: 	width:        1920
+08:44:33 PM.390: 	height:       1080
+08:44:33 PM.390: 	keyint:       250
+08:44:33 PM.390: 
+08:44:33 PM.391: ---------------------------------
+08:44:33 PM.392: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+08:44:33 PM.392: 
+08:44:33 PM.393: ==== Recording Start ===============================================
+08:44:33 PM.393: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_20-44-33.mp4'...
+08:56:10 PM.567: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_20-44-33.mp4' stopped
+08:56:10 PM.567: Output 'simple_file_output': stopping
+08:56:10 PM.567: Output 'simple_file_output': Total frames output: 41791
+08:56:10 PM.567: Output 'simple_file_output': Total drawn frames: 41830
+08:56:10 PM.567: ==== Recording Stop ================================================
+09:07:41 PM.533: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Audio Capture Device (ALSA))
+09:07:41 PM.533: 
+09:34:57 PM.868: ---------------------------------
+09:34:57 PM.868: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+09:34:57 PM.868: [x264 encoder: 'simple_h264_recording'] profile: high
+09:34:57 PM.868: [x264 encoder: 'simple_h264_recording'] settings:
+09:34:57 PM.868: 	rate_control: CRF
+09:34:57 PM.868: 	bitrate:      0
+09:34:57 PM.868: 	buffer size:  0
+09:34:57 PM.868: 	crf:          23
+09:34:57 PM.868: 	fps_num:      60
+09:34:57 PM.868: 	fps_den:      1
+09:34:57 PM.868: 	width:        1920
+09:34:57 PM.868: 	height:       1080
+09:34:57 PM.868: 	keyint:       250
+09:34:57 PM.868: 
+09:34:57 PM.869: ---------------------------------
+09:34:57 PM.869: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+09:34:57 PM.869: 
+09:34:57 PM.871: ==== Recording Start ===============================================
+09:34:57 PM.871: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/bgray/Videos/2023-05-23_21-34-57.mp4'...
+10:22:30 PM.564: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/bgray/Videos/2023-05-23_21-34-57.mp4' stopped
+10:22:30 PM.564: Output 'simple_file_output': stopping
+10:22:30 PM.564: Output 'simple_file_output': Total frames output: 171122
+10:22:30 PM.564: Output 'simple_file_output': Total drawn frames: 171162
+10:22:30 PM.564: ==== Recording Stop ================================================
+12:30:02 PM.172: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: Mic/Aux)
+12:30:02 PM.172: 
+07:39:54 AM.005: adding 23 milliseconds of audio buffering, total audio buffering is now 139 milliseconds (source: Audio Capture Device (ALSA))
+07:39:54 AM.005: 
