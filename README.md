@@ -9,7 +9,18 @@ Brian's chezmois Dotfiles Repo
 - Add directory of setup scripts to add or remove packages/configs
 
 ## Plan
-- Install and test with .bashrc
+- Install and test chezmoiz with .bashrc
 - Add additonal bash files
 - Add bash setup script
+- Add NOTES.md
 
+  ## Application Specific Notes
+
+  ### bash
+
+  ### vim
+
+  ### git
+
+
+  
