@@ -110,8 +110,8 @@ if ! shopt -oq posix; then
 fi
 
 # Setup personal environment variables
-if [ -f ~/.config/.bash_vars ]; then
-    . ~/.config/.bash_vars
+if [ -f ~/.config/bash/.bash_vars ]; then
+    . ~/.config/bash/.bash_vars
 fi
 # Set hostname
 # export HOST=$(hostname)
@@ -137,8 +137,8 @@ PATH=$PATH:/opt/paloaltonetworks/globalprotect
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.config/.bash_aliases ]; then
-    . ~/.config/.bash_aliases
+if [ -f ~/.config/bash/.bash_aliases ]; then
+    . ~/.config/bash/.bash_aliases
 fi
 
 # figlet lolcat banner
