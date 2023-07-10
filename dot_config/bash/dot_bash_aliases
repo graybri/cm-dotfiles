@@ -1,0 +1,62 @@
+
+#    _               _              _ _                     
+#   | |__   __ _ ___| |__      __ _| (_) __ _ ___  ___  ___ 
+#   | '_ \ / _` / __| '_ \    / _` | | |/ _` / __|/ _ \/ __|
+#  _| |_) | (_| \__ \ | | |  | (_| | | | (_| \__ \  __/\__ \
+# (_)_.__/ \__,_|___/_| |_|___\__,_|_|_|\__,_|___/\___||___/
+#                        |_____|                            
+
+# Brian's Aliases
+
+# OPS345/AWS
+## Sandbox Lab
+alias routersb='ssh -i ~/ops345/keys/ssh/ops345sb-first-key.pem brian.gray@routersb'
+alias wwwsb='ssh -i ~/ops345/keys/ssh/ops345sb-first-key.pem brian.gray@routersb -p 2211'
+
+## OPS345 Lab
+alias router='ssh -i ~/ops345/keys/ssh/ops345-first-key.pem brian.gray@router'
+alias www='ssh -i ~/ops345/keys/ssh/ops345-first-key.pem brian.gray@router -p 2211'
+alias www1='ssh -i ~/ops345/keys/ssh/ops345-first-key.pem brian.gray@router -p 2221'
+alias www2='ssh -i ~/ops345/keys/ssh/ops345-first-key.pem brian.gray@router -p 2222'
+alias www3='ssh -i ~/ops345/keys/ssh/ops345-first-key.pem brian.gray@router -p 2223'
+
+
+# ssh connections
+alias matrix="ssh brian.gray@matrix.senecacollege.ca"
+alias itas="ssh brian.gray@itas.senecacollege.ca"
+alias zenit="ssh brian.gray@zenit.senecacollege.ca"
+alias linode="ssh graybri@graybri.com"
+
+# Seneca Global Protect VPN
+alias vpnup="sudo openconnect --protocol=gp -b -u brian.gray --usergroup gateway SenecaVPN.senecacollege.ca"
+alias vpndown="sudo killall openconnect"
+alias vpnstat="sudo ps -ef | grep 'openconnect' | grep -v 'grep' || echo -e \"${red}VPN not running${reset}\""
+
+# exa
+alias ls="exa -lah --color=always --group-directories-first"
+
+# Daily message
+alias motd="~/.local/bin/setmess.sh"
+
+# package management
+alias update="sudo apt update && sudo apt upgrade"
+alias install="sudo apt install"
+
+# git aliases
+alias gst="git status"
+alias dotgit="/usr/bin/git --git-dir=$HOME/gh-repos/bare/dotfiles/ --work-tree=$HOME"
+alias bakgit="/usr/bin/git --git-dir=$HOME/gh-repos/bare/backups/ --work-tree=$HOME"
+
+
+# date aliases
+alias today="date -Idate"
+
+# Applications
+alias teams='/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=run.sh --file-forwarding com.github.IsmaelMartinez.teams_for_linux teams-for-linux @@u %U @@'
+alias joplin='/home/bgray/.joplin/Joplin.AppImage'
+alias calc='gnome-calculator'
+
+# Problem Solvers - Fix hung Processes
+
+# Kill Total War
+alias ktw="kill -9 `ps x | awk '{print $1, $4, $5}' | grep Medieval | awk '{print $1}'`"
