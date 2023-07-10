@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/bgray/.local/share/applications'
+let g:netrw_dirhist_7='/home/bgray/.config/i3'
+let g:netrw_dirhist_6='/home/bgray/vimwiki'
+let g:netrw_dirhist_5='/home/bgray/gh-repos/linode-www/ops245'
+let g:netrw_dirhist_4='/home/bgray/gh-repos/py-tutor'
+let g:netrw_dirhist_3='/home/bgray/gh-repos/py-tutor/.git'
+let g:netrw_dirhist_2='/home/bgray/gh-repos/py-tutor'
+let g:netrw_dirhist_1='/home/bgray/.config/xfce4/xfconf/xfce-perchannel-xml'
