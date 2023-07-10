@@ -47,6 +47,8 @@ alias gst="git status"
 alias dotgit="/usr/bin/git --git-dir=$HOME/gh-repos/bare/dotfiles/ --work-tree=$HOME"
 alias bakgit="/usr/bin/git --git-dir=$HOME/gh-repos/bare/backups/ --work-tree=$HOME"
 
+# chezmoi alises
+alias cm="chezmoi"
 
 # date aliases
 alias today="date -Idate"
