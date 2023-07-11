@@ -46,6 +46,7 @@ set showmatch
 "========================="
 call plug#begin()
 
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 Plug 'itchyny/lightline.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'jiangmiao/auto-pairs'
